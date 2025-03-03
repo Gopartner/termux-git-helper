@@ -1,0 +1,12 @@
+#!/bin/sh
+PREFIX=/data/data/com.termux/files/usr
+
+# Pastikan direktori bin ada
+mkdir -p $PREFIX/bin
+
+# Pindahkan file eksekusi
+mv ./data/share/git-helper/git-helper.sh $PREFIX/bin/git-helper
+chmod +x $PREFIX/bin/git-helper
+
+echo "✅ Git Helper berhasil diinstal di $PREFIX/bin/git-helper"
+

@@ -1,0 +1,9 @@
+Package: git-helper
+Version: 1.0.0
+Architecture: all
+Maintainer: Yudi Billy <yudi@example.com>
+Depends: git, coreutils
+Section: utils
+Priority: optional
+Description: Alat bantu perintah Git untuk GitHub/GitLab di Termux.
+

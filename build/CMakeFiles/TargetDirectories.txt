@@ -1,0 +1,6 @@
+/data/data/com.termux/files/home/termux-git-helper/build/CMakeFiles/build-deb.dir
+/data/data/com.termux/files/home/termux-git-helper/build/CMakeFiles/update-repo.dir
+/data/data/com.termux/files/home/termux-git-helper/build/CMakeFiles/update-repo-git.dir
+/data/data/com.termux/files/home/termux-git-helper/build/CMakeFiles/update-release.dir
+/data/data/com.termux/files/home/termux-git-helper/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/termux-git-helper/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+#!/bin/sh
+rm -rf /usr/share/git-helper/
+rm -f /usr/bin/git-helper
+
