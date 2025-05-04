@@ -1,5 +1,3 @@
-
-
 ## kode untuk "usr/bin/git-helper"
 ```bash
 #!/bin/bash
@@ -36,14 +34,19 @@ make
 ```bash
 dpkg-deb --build app
 ```
-
-## instal package hasil build
+## Tes git
 ```bash
-dpkg -i output/git-helper_1.0.0_all.deb
-```
-<p>Jika ada error dependensi, jalankan:</p>
-```bash
-apt --fix-broken install
-```
+# Buat branch pengembangan
+git checkout -b main master
+git push origin main
 
+# Kerja di main
+git checkout main
+# edit + commit + push
+
+# Setelah fitur stabil
+git checkout master
+git merge main
+git push origin master
+```
 
