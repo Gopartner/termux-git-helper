@@ -55,6 +55,7 @@ git checkout main             # pastikan lagi sudah di 'main'
 # (edit file sesuai fitur kamu)
 git add .                     # stage semua perubahan
 git commit -m "Tambah fitur baru di main"
+git push --set-upstream origin main (lakukan ini sekali)
 git push                      # push ke origin/main
 ```
 ## Merge ke master Jika Sudah Stabil
