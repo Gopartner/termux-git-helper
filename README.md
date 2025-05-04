@@ -49,4 +49,21 @@ git checkout master
 git merge main
 git push origin master
 ```
+## pada branch penhembang:
+```bash
+git checkout main             # pastikan lagi sudah di 'main'
+# (edit file sesuai fitur kamu)
+git add .                     # stage semua perubahan
+git commit -m "Tambah fitur baru di main"
+git push                      # push ke origin/main
+```
+## Merge ke master Jika Sudah Stabil
+```bash
+git checkout master           # pindah ke branch master
+git pull origin master        # pastikan up to date
+git merge main                # gabungkan perubahan dari main
+git push origin master        # push ke remote master
+```
+## ok bro
+
 
